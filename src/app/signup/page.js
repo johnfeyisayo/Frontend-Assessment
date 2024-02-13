@@ -1,6 +1,6 @@
 "use client"; 
 import Link from "next/link";
-import Image1 from 'next/image';
+import Image from 'next/image';
 import { useState } from "react"; 
 import { useRouter } from 'next/navigation';
 import { redirect } from 'next/navigation'
@@ -44,7 +44,7 @@ export default function Signup() {
     return (
       <form className="flex h-dvh font-sans" onSubmit={handleSubmit}>
         <section className="">
-        <Image1
+        <Image
       className="md:block hidden h-full"
         src="/Signup.png"
         width={1200}
