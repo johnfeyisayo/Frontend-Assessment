@@ -99,7 +99,7 @@ export default function Login() {
         </div>
       </section>
 
-      <section className="md:border">
+      <section className="">
       <Image
       className="md:block hidden h-full"
         src="/Login.png"

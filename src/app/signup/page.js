@@ -49,7 +49,7 @@ export default function Signup() {
         src="/Signup.png"
         width={1200}
         height={0}
-        alt="login background image"
+        alt="signup background image"
       />
       </section>
 
