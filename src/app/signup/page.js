@@ -1,6 +1,4 @@
 "use client"; 
-import Checkbox from "@mui/material/Checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import Link from "next/link";
 import Image from 'next/image';
 import { useState } from "react"; 
@@ -8,13 +6,7 @@ import { useRouter } from 'next/navigation';
 import { redirect } from 'next/navigation'
 
 
-// const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-// const formControlLabelStyle = {
-//   "& .MuiFormControlLabel-label": {
-//     fontSize: "0.7rem",
-//   },
-// };
 
 export default function Signup() {
     const router = useRouter()
